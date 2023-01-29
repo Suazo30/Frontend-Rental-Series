@@ -27,13 +27,13 @@ Es una librería open source de JavaScript para desarrollar interfaces de usuari
 
 Al tratarse de una librería, React necesita ser acompañado de otras librerías para completar las necesidades de desarrollo de
 nuestra aplicación web tales como:
-1- @reduxjs/toolkit                        2- axios
-3- dayjs                                   4- react
-5- react-dom                               6- react-jwt
-7- react-redux                             8- react-router-dom
-9- redux-persist                          10- redux-thunk
-11- @types/react                          12- @types/react-dom
-13- @vitejs/plugin-react                  14- vite
+1- @reduxjs/toolkit                                                              2- axios
+3- dayjs                                                                         4- react
+5- react-dom                                                                     6- react-jwt
+7- react-redux                                                                   8- react-router-dom
+9- redux-persist                                                                10- redux-thunk
+11- @types/react                                                                12- @types/react-dom
+13- @vitejs/plugin-react                                                        14- vite
 
 Una de sus características más importantes es la utilización del Virtual DOM para manejar los componentes.
 
