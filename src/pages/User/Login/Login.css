@@ -1,0 +1,32 @@
+.loginDesign {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 85vh;
+    width: 100vw;
+
+    background-color: white;
+}
+
+.loginButtonDesign {
+
+    height: 2em;
+    width: 7em;
+
+    background-color: orange;
+    cursor: pointer;
+
+    border-radius: 1em;
+
+    transition: 0.3s;
+}
+
+.loginButtonDesign:hover {
+
+    transition: 0.3s;
+
+    background-color: darkorange;
+}

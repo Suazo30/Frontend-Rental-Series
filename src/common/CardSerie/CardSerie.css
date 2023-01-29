@@ -1,0 +1,25 @@
+.cardSerieDesign {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 9.4em;
+    width: 6.5em;
+
+    background-color: lightslategrey;
+
+    color: black;
+
+    border-radius: 1em;
+
+    margin: 0.5em;
+}
+
+.posterDesign {
+
+    height: 5em;
+    width: 3em;
+
+}
