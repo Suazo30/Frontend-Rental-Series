@@ -17,14 +17,14 @@ export const postRegister = async (userData) => {
 
 export const getSeries = async () => {
 
-    return await axios.get(`${root}series`);
+    return await axios.get(`${root}series/getAll`);
 
 }
 
 // Funcion que busca 
-export const getSearch = async () => {
+export const getSearch = async (search) => {
 
-    return await axios.get(`${root}series`);
+    return await axios.get(`${root}series/name/${search}`);
 
 }
 
@@ -37,7 +37,7 @@ export const postRent = async (body, token) => {
 
     let config = {
         method: 'post', //aqui especifico el protocolo http
-        url : `${root}/oders/neworder`, //este sería mi endpoint del backend
+        url : `${root}/rentals/newRental`, //este sería mi endpoint del backend
         body, //el body que contiene los datos
         headers: { 
             'Authorization': 'Bearer ' + token

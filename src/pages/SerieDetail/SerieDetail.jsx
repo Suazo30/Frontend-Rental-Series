@@ -44,11 +44,12 @@ export const SerieDetail = () => {
         let body = {
 
             //id de la serie...
-            idSerie : detailRdx.choosen.id,
-            idUser : detailUsr.userPass.user._id,
+            seriesId : detailRdx.choosen._id,
+            userId : detailUsr.userPass.user._id,
             rentalDate : dayjs().format('DD/MM/YYYY'),
             returnDate : dayjs().add(7, 'days').format('DD/MM/YYYY'),
-            price : 5
+            price : 5,
+            nameSeries: detailRdx.choosen.name
         }
 
         postRent(body, detailUsr.userPass.token)
@@ -56,7 +57,7 @@ export const SerieDetail = () => {
                 //Esto se ejecutará si el pedido se ha realizado correctamente
                 //mostrando el mensaje
 
-                setMsg(resultado.data)
+                setMsg(resultado.data.message)
 
 
                 //Después de haber realizado el pedido, llevamos al user a su perfil
@@ -94,6 +95,7 @@ export const SerieDetail = () => {
                     
                         <div onClick={()=>RentMe()} className='rentDesign'>ALQUILAME</div>
                     }
+                    <div>{msg}</div>
                 </div>
             
             }

@@ -46,6 +46,7 @@ export const Header = () => {
 
             //Llamamos a la funcion del servicio que busca
             getSearch(search)
+            
                 .then(
                     resultado => {
 
@@ -95,8 +96,6 @@ export const Header = () => {
     }
 
     const searchErrorHandler = (e) => {
-
-        console.log("comprobamos mañana la búsqueda");
     }
 
 

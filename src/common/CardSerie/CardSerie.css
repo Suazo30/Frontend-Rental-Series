@@ -5,10 +5,17 @@
     justify-content: center;
     align-items: center;
 
-    height: 9.4em;
-    width: 6.5em;
+    height: 12em;
+    width: 9em;
+    border-style: ridge;
+    /* border: gold solid; */
+    font: small-caption;
+    /* position: absolute; */
+    font-style: italic;
+    /* font-size: x-large; */
+    
 
-    background-color: lightslategrey;
+    /* background-color: black; */
 
     color: black;
 
@@ -19,7 +26,8 @@
 
 .posterDesign {
 
-    height: 5em;
-    width: 3em;
+    height: 8em;
+    width: 6em;
+    
 
 }

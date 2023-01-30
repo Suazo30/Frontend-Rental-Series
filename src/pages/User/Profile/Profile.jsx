@@ -32,9 +32,9 @@ export const Profile = () => {
         <div className='profileDesign'>
 
             <header>
-                Information
+               <span>Information</span> 
             </header>
-            <div>
+            <div className='info'>
                 <p>Name:{userRDX.userPass.user.name}</p>
                 <p>Surname:{userRDX.userPass.user.surname}</p>
                 <p>Email:{userRDX.userPass.user.email}</p>

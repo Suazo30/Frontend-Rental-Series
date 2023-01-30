@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
     
 
@@ -11,4 +12,13 @@
     width: 100vw;
 
     background-color: white;
+}
+
+span{
+    background-color: lightcoral;
+    text-decoration: underline;
+}
+
+.info{
+    border-style: ridge;
 }
