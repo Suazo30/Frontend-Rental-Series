@@ -14,6 +14,8 @@ Todo ello sera de manera visual desde el navegador.
 La aplicacion tendra como requisitos las siguientes vsitas:
 
 - Vista Home/Principal
+<img width="958" alt="Home" src="https://user-images.githubusercontent.com/118383591/215563161-bd8012d0-041d-4236-9f57-13687c00119c.png">
+
 - Vista Login/Logout
 - Vista Registro de usuarios
 
