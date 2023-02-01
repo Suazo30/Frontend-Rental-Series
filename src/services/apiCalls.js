@@ -17,14 +17,14 @@ export const postRegister = async (userData) => {
 
 export const getSeries = async () => {
 
-    return await axios.get(`${root}series/getAll`);
+    return await axios.get(`${root}series/`);
 
 }
 
 // Funcion que busca 
 export const getSearch = async (search) => {
 
-    return await axios.get(`${root}series/name/${search}`);
+    return await axios.get(`${root}series/search/${search}`);
 
 }
 

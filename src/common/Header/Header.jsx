@@ -51,8 +51,7 @@ export const Header = () => {
                     resultado => {
 
                         //Guardo en REDUX..........
-                        dispatch(find({ series: resultado.data.results }))
-                        // dispatch(find({ series: resultado.data }))
+                        dispatch(find({ series: resultado.data }))
                     }
                 )
                 .catch(error => console.log(error));
